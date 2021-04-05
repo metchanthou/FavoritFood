@@ -1,0 +1,81 @@
+body{
+    font-family: sans-serif; 
+    background-image:url("/img/p3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top: 100px;
+    
+}
+
+.parents{
+    box-shadow: 0 4px 4px 1px rebeccapurple;
+    max-width: 500px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;  	
+    font-family: Open sans;
+    
+}
+.header{
+    text-align: center;
+    padding: 10px;
+}
+.search{
+    width: 70%;
+    height: 5vh;
+    border: 2px solid rgb(117, 117, 15);
+    border-radius: 5px;
+}
+.restaurant,
+.shop{
+    width: 35%;
+    height: 5vh;
+    border: none;
+    margin-top: 2%;
+}
+.add-newFood{
+    margin-left: 12%;
+    
+}
+.list{
+    margin-top: 5px;
+    box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 25px;
+
+    
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+   
+.delete {
+    background: red;
+    color: #fff;
+    padding: 1px 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+h2{
+    color: rgb(240, 106, 17);
+    margin-left: 10%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 15px;
+}
+li{
+    box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 350px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
